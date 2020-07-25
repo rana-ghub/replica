@@ -1,0 +1,38 @@
+ div h4{
+    text-align: center;
+    color: #737373;
+    letter-spacing: 0.1rem;
+}
+.whole{
+    margin-top: 10%;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    flex-direction: row;
+    align-items: stretch;
+    overflow: hidden;
+    margin-top: 3%;
+    color: #737373;
+}
+div p{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 25px;
+    padding-left: 35px;
+    padding-right:35px;
+}
+strong{
+    font-weight: 500;
+    color: #242323;
+    font-size: 18px;
+}
+.boxes{
+    width: 33%;
+    text-align: center;
+    padding-bottom: 40px;
+}

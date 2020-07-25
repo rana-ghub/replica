@@ -1,0 +1,40 @@
+header{
+    width:100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+}
+nav{
+    text-align: center;
+    padding: 10px;
+}
+li{
+    display: inline;
+    padding: 1rem;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    
+}
+li a{
+    text-decoration: none;
+    color: #FFF;
+}
+li a:hover{
+    color: #737373;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+}
+#but{
+    background-color: #000;
+    color: #FFF;
+    border: 1px solid #fff;
+    font-family: cursive;
+}
+#but:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s ease-in;
+}

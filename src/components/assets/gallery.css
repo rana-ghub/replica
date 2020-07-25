@@ -1,0 +1,30 @@
+.row{
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+}
+.whole{
+    margin-top: 7%;   
+}
+.carousel-inner{
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 316px;
+    max-height: 630px;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+.active:hover{
+    background-color: #ffffff;
+    visibility: 60%;
+}
+#vr{
+    height: 477px;
+}
+#gg{
+    height: 475px;
+}
+#qw{
+    height: 475px;
+}

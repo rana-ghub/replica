@@ -1,0 +1,14 @@
+.about{
+    text-align: center;
+    margin-top: 7rem;
+    font-family: 'Varta', sans-serif;
+    color: #242323;
+}
+main{
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 1.5em;
+    color: #737373;
+    font-size: 15px;
+    font-family: sans-serif;
+}

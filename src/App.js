@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './components/fontAwesone/index';
+import Navbar from './components/navbar';
+import Ferofly from './components/ferofly';
+import About from './components/About';
+import Room from './components/Room';
+import Services from './components/services';
+import Gallery from './components/gallery';
+import Things from './components/things';
+import Grass from './components/review';
+import Contact from './components/contact';
+import SimpleMap from './components/maps';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Ferofly />
+      <About />
+      <Room />
+      <Services />
+      <Gallery />
+      <Things />
+      <Grass />
+      <Contact />
+      <SimpleMap />
     </div>
   );
 }
